@@ -14,7 +14,7 @@ export default function ProjectsPage() {
         <title>Projects</title>
       </Head>
       <HeaderMain now={2} />
-      <Projects />
+      <Projects now={1} />
       <Contact />
     </main>
   );
