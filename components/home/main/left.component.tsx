@@ -4,7 +4,7 @@ import Button from "../../default/button.component";
 
 export default function Left() {
   return (
-    <div className=" xl:w-1/2 lg:w-1/2 w-full xl:text-start lg:text-start text-center flex flex-col xl:items-start lg:items-start items-center xl:gap-2 lg:gap-2 md:gap-2 sm:gap-1">
+    <div className=" mb-20 xl:w-1/2 lg:w-1/2 w-full xl:text-start lg:text-start text-center flex flex-col xl:items-start lg:items-start items-center xl:gap-2 lg:gap-2 md:gap-2 sm:gap-1">
       <h1 className=" xl:text-4xl lg:text-4xl md:text-2xl text-2xl font-extrabold">
         Hi, I am
       </h1>

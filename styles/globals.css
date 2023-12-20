@@ -20,20 +20,85 @@ body {
   color: white;
 }
 @keyframes animy {
-  0% {width: 0;}
-  50% {width: 78%;}
-  100% {width: 78%;}
+  0% {
+    width: 0;
+  }
+  50% {
+    width: 78%;
+  }
+  100% {
+    width: 78%;
+  }
 }
 
 @keyframes blinking {
-  0% {border-color: transparent;}
-  50% {border-color: orange;}
-  100% {border-color: transparent;}
+  0% {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+  100% {
+    border-color: transparent;
+  }
 }
-.typed-out{
-     width: 0;
-     white-space: nowrap;
-     border-right: 0.2rem solid orange;
-     animation-delay: 2s;
-     animation:  animy 2s forwards infinite  steps(40, end) , blinking 0.5s infinite; 
+.typed-out {
+  width: 0;
+  white-space: nowrap;
+  border-right: 0.2rem solid orange;
+  animation-delay: 2s;
+  animation: animy 2s forwards infinite steps(40, end), blinking 0.5s infinite;
+}
+.slide {
+  transition: transform 5s ease; /* Smooth sliding transition */
+}
+
+@keyframes erase {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%); /* Adjust distance to scroll */
+  }
+}
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-100%); /* Adjust distance to scroll */
+  }
+  100% {
+    transform: translateX(0); /* Adjust distance to scroll */
+  }
+}
+@keyframes scroll2 {
+  0% {
+    transform: translateX(-100%);
+  }
+  50% {
+    transform: translateX(0); /* Adjust distance to scroll */
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.slider {
+  animation-play-state: running; /* Make sure animation is running initially */
+
+  animation: scroll 15s linear infinite; /* Adjust animation duration as needed */
+}
+.slider2 {
+  animation-play-state: running; /* Make sure animation is running initially */
+
+  animation: scroll2 15s linear infinite; /* Adjust animation duration as needed */
+}
+.slider3 {
+  animation-play-state: running; /* Make sure animation is running initially */
+
+  animation: scroll 11s linear infinite; /* Adjust animation duration as needed */
+}
+.bull {
+  transform: translate(-50%, -50%);
 }

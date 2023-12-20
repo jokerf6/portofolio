@@ -1,22 +1,39 @@
-
 import Image from "next/image";
 import { Inter } from "next/font/google";
 import HeaderMain from "@/components/home/header.component";
 import Right from "@/components/home/main/right.component";
 import Left from "@/components/home/main/left.component";
+import Skills from "@/components/skills/skills.component";
+import Welcome from "@/components/home/welcome.component";
+import Title from "@/components/default/title.component";
+import Experience from "@/components/experience/main.component";
+import Projects from "@/components/projects/main.component";
+import Contact from "@/components/contact/main.component";
+import Head from "next/head";
+import Taps from "@/components/projects/taps.component";
+import { useState } from "react";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
+  const [now, setNow] = useState(1);
   return (
     <main
-      className={`flex  min-h-screen flex-row ${inter.className} bg-main py-8  w-screen h-screen`}
+      className={`flex overflow-x-hidden min-h-screen w-full flex-col  ${inter.className}  m-0 p-0`}
     >
-      <HeaderMain />
-      <div className="  w-screen h-screen absolute top-0 left-0 flex items-center xl:justify-between lg:justify-between justify-center  xl:flex-row lg:flex-row md:flex-col-reverse flex-col-reverse  xl:px-40 lg:px-30 px-10 xl:gap-0 lg:gap-0 md:gap-8 gap-6  ">
-        <Left />
-        <Right />
+      <Head>
+        <link rel="icon" href="/images/logo.png" />
+        <title>Home</title>
+      </Head>
+      <div className=" w-screen h-screen flex flex-col">
+        <HeaderMain now={0} />
+        <Welcome />
       </div>
+      <Skills />
+      <Experience />
+      <Projects now={now} />
+      <Taps now={now} setNow={setNow} />
+      <Contact />
     </main>
   );
 }
