@@ -7,6 +7,13 @@ export const experience = [
     image: "/images/experience/icpc.png",
   },
   {
+    date: "Oct 2022",
+    text: "Instant",
+    brief: "Backend course (nodejs)",
+    link: "https://www.linkedin.com/posts/fahd-hakem-%F0%9F%87%B5%F0%9F%87%B8-139627204_software-instructor-egypt-activity-6979827285071675392-7iq-?utm_source=share&utm_medium=member_desktop",
+    image: "/images/experience/instant.jpg",
+  },
+  {
     date: "Sep 2022",
     text: "ECPC",
     brief: "38th in ICPC Qualifications 2022",

@@ -18,9 +18,11 @@ export default function Left() {
         </div>
       </div>
       <p className=" xl:text-lg lg:text-lg md:text-lg text-md mb-5 font-light">
-        A Software Engineer With Solid Knowledge In Front-End Technologies, And
-        Software Development Principles, Looking Forward To Working At An
-        Innovative Where I Can Devolop My Skills.
+        As a passionate Full Stack Developer, I thrive in crafting innovative
+        digital solutions and contributing across the entire software
+        development lifecycle. My journey in the tech realm began with a keen
+        interest in coding and problem-solving, steering me towards a diverse
+        skill set encompassing both front-end and back-end technologies.
       </p>
       <Button />
     </div>
