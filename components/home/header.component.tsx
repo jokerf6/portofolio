@@ -21,11 +21,16 @@ export default function HeaderMain(props: { now: number }) {
         />
         {show && (
           <div className=" p-2 bg-main2 flex gap-1 flex-col absolute -bottom-30 rounded-md right-0">
-            <Link href={"/"} className={`${now === 0 ? "text-orange" : ""}`}>
+            <Link
+              onClick={() => setShow((pre) => !pre)}
+              href={"/"}
+              className={`${now === 0 ? "text-orange" : ""}`}
+            >
               About
             </Link>
             <hr className=" border-orange" />
             <Link
+              onClick={() => setShow((pre) => !pre)}
               href={"/experience"}
               className={`${now === 1 ? "text-orange" : ""}`}
             >
@@ -34,6 +39,7 @@ export default function HeaderMain(props: { now: number }) {
             <hr className=" border-orange" />
 
             <Link
+              onClick={() => setShow((pre) => !pre)}
               href={"/projects"}
               className={`${now === 2 ? "text-orange" : ""}`}
             >
