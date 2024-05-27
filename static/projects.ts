@@ -1,5 +1,33 @@
 export const projects = [
   {
+    title: "Apex Stocks",
+    brief:
+      "Apex Stock is an all-in-one platform designed to provide comprehensive information and services related to stocks in various markets, including the USA, Australia (Aus), Saudi Arabia (SAU), and Japan (JAP)",
+    tools: [
+      "Nextjs",
+      "Tailwind",
+      "Nodejs(Nest)",
+      "Mysql",
+      "TypeScript",
+      "ORM (Prisma)",
+    ],
+    image: "/images/projects/stocks.png",
+    link: "https://naqiconcepts.com",
+    freelance: true,
+    internship: false,
+  },
+  {
+    title: "Planner (backend)",
+    brief:
+      "The Planner App is a versatile tool designed to help users organize their daily activities and optimize productivity.",
+    tools: ["Nodejs(Nest)", "Mysql", "TypeScript", "ORM (Prisma)"],
+    image: "/images/projects/planner.png",
+    link: "https://api.rtb-app.com/api/v1/docs",
+    freelance: true,
+    internship: false,
+  },
+
+  {
     title: "Travel",
     brief:
       "egyptsunny.com is your gateway to tailored adventures across Egypt, offering curated tours to iconic landmarks like the Pyramids of Giza, Luxor's ancient treasures, and Nile River cruises. Experience Egypt's rich history and vibrant culture with expertly crafted itineraries for an unforgettable journey.",
@@ -12,8 +40,9 @@ export const projects = [
       "ORM (Prisma)",
     ],
     image: "/images/projects/travel.png",
-    link: "",
+    link: "https://egyptsunny.com",
     freelance: true,
+    internship: false,
   },
   {
     title: "Figflix",
@@ -23,6 +52,7 @@ export const projects = [
     image: "/images/projects/Page 1.png",
     link: "https://github.com/jokerf6/figflix",
     freelance: false,
+    internship: false,
   },
 
   {
@@ -32,7 +62,8 @@ export const projects = [
     tools: ["Nodejs(Nest)", "Mysql", "TypeScript", "ORM (Prisma)"],
     image: "/images/projects/ols.png",
     link: "",
-    freelance: true,
+    freelance: false,
+    internship: true,
   },
   {
     title: "Job Seeker(front-end)",
@@ -42,6 +73,7 @@ export const projects = [
     image: "/images/projects/job-seeker.png",
     link: "https://github.com/Graduation-O6u/Graduation-web",
     freelance: false,
+    internship: false,
   },
   {
     title: "LMS",
@@ -59,6 +91,7 @@ export const projects = [
     image: "/images/projects/LMS.png",
     link: "https://github.com/kmk-m/Graduation",
     freelance: false,
+    internship: false,
   },
   {
     title: "In-company",
@@ -68,6 +101,7 @@ export const projects = [
     image: "/images/projects/incompany.png",
     link: "",
     freelance: true,
+    internship: false,
   },
   {
     title: "Job Seeker(back-end)",
@@ -77,6 +111,7 @@ export const projects = [
     image: "/images/projects/job-seeker.png",
     link: "https://github.com/Graduation-O6u/Graduation-Backend",
     freelance: false,
+    internship: false,
   },
   {
     title: "Voting",
@@ -86,6 +121,7 @@ export const projects = [
     image: "/images/projects/voting.png",
     link: "https://github.com/jokerf6/Voting_Syste",
     freelance: false,
+    internship: false,
   },
   {
     title: "Community(back-end)",
@@ -95,6 +131,7 @@ export const projects = [
     image: "/images/projects/community.png",
     link: "https://github.com/jokerf6/community",
     freelance: false,
+    internship: false,
   },
 
   {
@@ -105,6 +142,7 @@ export const projects = [
     image: "/images/projects/LMS-mobile.png",
     link: "https://github.com/Graduation-O6u/Graduation-mobile",
     freelance: false,
+    internship: false,
   },
   {
     title: "Community(front-end)",
@@ -114,6 +152,7 @@ export const projects = [
     image: "/images/projects/community.png",
     link: "https://github.com/jokerf6/community-web",
     freelance: false,
+    internship: false,
   },
 
   {
@@ -123,6 +162,7 @@ export const projects = [
     image: "/images/projects/kasper.png",
     link: "https://github.com/jokerf6/Kasper-templete",
     freelance: false,
+    internship: false,
   },
   {
     title: "Leon",
@@ -131,6 +171,7 @@ export const projects = [
     image: "/images/projects/loan.png",
     link: "https://github.com/jokerf6/Leon-Templete",
     freelance: false,
+    internship: false,
   },
   {
     title: "Healthy-food",
@@ -139,6 +180,7 @@ export const projects = [
     image: "/images/projects/food.png",
     link: "https://github.com/jokerf6/Healthyfood",
     freelance: false,
+    internship: false,
   },
   {
     title: "Special",
@@ -147,5 +189,6 @@ export const projects = [
     image: "/images/projects/special.png",
     link: "https://github.com/jokerf6/Special-wep",
     freelance: false,
+    internship: false,
   },
 ];

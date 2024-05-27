@@ -31,6 +31,7 @@ export default function Projects(props: { now: number }) {
                 title={item["title"]}
                 brief={item["brief"]}
                 freelance={item["freelance"]}
+                internship={item["internship"]}
                 link={item["link"]}
               />
             );

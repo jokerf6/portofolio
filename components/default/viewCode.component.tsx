@@ -1,12 +1,16 @@
 import Link from "next/link";
 import React from "react";
 
-export default function ViewCode(props: { button: boolean; link: string }) {
-  const { button, link } = props;
+export default function ViewCode(props: {
+  freelance: boolean;
+  internship: boolean;
+  link: string;
+}) {
+  const { freelance, link, internship } = props;
   return (
     <>
       {" "}
-      {button ? (
+      {!freelance && !internship ? (
         <Link
           target="blank"
           href={link}
@@ -14,9 +18,23 @@ export default function ViewCode(props: { button: boolean; link: string }) {
         >
           View Code
         </Link>
+      ) : freelance ? (
+        link !== "" ? (
+          <Link
+            target="blank"
+            href={link}
+            className=" text-orange border text-center rounded-md mt-2 mb-2 border-orange w-full"
+          >
+            Freelance
+          </Link>
+        ) : (
+          <div className=" text-orange border text-center rounded-md mt-2 mb-2 border-orange w-full">
+            Freelance
+          </div>
+        )
       ) : (
         <div className=" text-orange border text-center rounded-md mt-2 mb-2 border-orange w-full">
-          Freelance
+          Internship
         </div>
       )}
     </>

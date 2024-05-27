@@ -8,8 +8,9 @@ export default function Project(props: {
   brief: string;
   freelance: boolean;
   link: string;
+  internship: boolean;
 }) {
-  const { image, tools, title, brief, freelance, link } = props;
+  const { image, tools, title, brief, freelance, link, internship } = props;
   return (
     <div
       className=" px-2 flex flex-col rounded-md  bg-main2 h-fit "
@@ -38,7 +39,7 @@ export default function Project(props: {
         <h1 className=" mt-3 text-xl font-bold ">{title}</h1>
         <p className=" w-full break-words text-sm pb-2">{brief}</p>
 
-        <ViewCode button={!freelance} link={link} />
+        <ViewCode freelance={freelance} internship={internship} link={link} />
       </div>
     </div>
   );
