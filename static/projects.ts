@@ -44,6 +44,37 @@ export const projects = [
     freelance: true,
     internship: false,
   },
+
+  {
+    title: "Job Seeker(front-end)",
+    brief:
+      "Job Seeker connects job seekers with diverse employment opportunities across various industries and locations. Offering a user-friendly platform, it aggregates job listings from leading companies, empowering individuals to explore, apply, and advance their careers",
+    tools: ["Reactjs", "JS", "CSS"],
+    image: "/images/projects/job-seeker.png",
+    link: "https://github.com/Graduation-O6u/Graduation-web",
+    freelance: true,
+    internship: false,
+  },
+  {
+    title: "Job Seeker(back-end)",
+    brief:
+      "Job Seeker connects job seekers with diverse employment opportunities across various industries and locations. Offering a user-friendly platform, it aggregates job listings from leading companies, empowering individuals to explore, apply, and advance their careers",
+    tools: ["Nodejs(Nest)", "Mysql", "TypeScript", "ORM (Prisma)"],
+    image: "/images/projects/job-seeker.png",
+    link: "https://api.ammd.website/api/v1/docs",
+    freelance: true,
+    internship: false,
+  },
+  {
+    title: "Voting (backend)",
+    brief:
+      "Voting is a secure online platform enabling user-friendly voting experiences. Providing accessible, transparent, and efficient voting mechanisms, it facilitates democratic processes for elections, polls, and decision-making with integrity and ease of use",
+    tools: ["Nodejs(Nest)", "Mysql", "TypeScript", "ORM (Prisma)"],
+    image: "/images/projects/voting.png",
+    link: "https://voting.egyptsunny.com/api/v1/docs",
+    freelance: true,
+    internship: false,
+  },
   {
     title: "Figflix",
     brief:
@@ -65,16 +96,7 @@ export const projects = [
     freelance: false,
     internship: true,
   },
-  {
-    title: "Job Seeker(front-end)",
-    brief:
-      "Job Seeker connects job seekers with diverse employment opportunities across various industries and locations. Offering a user-friendly platform, it aggregates job listings from leading companies, empowering individuals to explore, apply, and advance their careers",
-    tools: ["Reactjs", "JS", "CSS"],
-    image: "/images/projects/job-seeker.png",
-    link: "https://github.com/Graduation-O6u/Graduation-web",
-    freelance: false,
-    internship: false,
-  },
+
   {
     title: "LMS",
     brief:
@@ -103,26 +125,7 @@ export const projects = [
     freelance: true,
     internship: false,
   },
-  {
-    title: "Job Seeker(back-end)",
-    brief:
-      "Job Seeker connects job seekers with diverse employment opportunities across various industries and locations. Offering a user-friendly platform, it aggregates job listings from leading companies, empowering individuals to explore, apply, and advance their careers",
-    tools: ["Nodejs(Nest)", "Mysql", "TypeScript", "ORM (Prisma)"],
-    image: "/images/projects/job-seeker.png",
-    link: "https://github.com/Graduation-O6u/Graduation-Backend",
-    freelance: false,
-    internship: false,
-  },
-  {
-    title: "Voting",
-    brief:
-      "Voting is a secure online platform enabling user-friendly voting experiences. Providing accessible, transparent, and efficient voting mechanisms, it facilitates democratic processes for elections, polls, and decision-making with integrity and ease of use",
-    tools: ["Nodejs(Nest)", "Mysql", "TypeScript", "ORM (Prisma)"],
-    image: "/images/projects/voting.png",
-    link: "https://github.com/jokerf6/Voting_Syste",
-    freelance: false,
-    internship: false,
-  },
+
   {
     title: "Community(back-end)",
     brief:
@@ -140,8 +143,8 @@ export const projects = [
       "Job Seeker connects job seekers with diverse employment opportunities across various industries and locations. Offering a user-friendly platform, it aggregates job listings from leading companies, empowering individuals to explore, apply, and advance their careers",
     tools: ["Flutter", "Dart"],
     image: "/images/projects/LMS-mobile.png",
-    link: "https://github.com/Graduation-O6u/Graduation-mobile",
-    freelance: false,
+    link: "https://ammd.website",
+    freelance: true,
     internship: false,
   },
   {
@@ -152,6 +155,8 @@ export const projects = [
     image: "/images/projects/community.png",
     link: "https://github.com/jokerf6/community-web",
     freelance: false,
+    graduation: false,
+
     internship: false,
   },
 
@@ -162,6 +167,7 @@ export const projects = [
     image: "/images/projects/kasper.png",
     link: "https://github.com/jokerf6/Kasper-templete",
     freelance: false,
+    graduation: false,
     internship: false,
   },
   {
@@ -171,6 +177,7 @@ export const projects = [
     image: "/images/projects/loan.png",
     link: "https://github.com/jokerf6/Leon-Templete",
     freelance: false,
+    graduation: false,
     internship: false,
   },
   {
@@ -180,6 +187,7 @@ export const projects = [
     image: "/images/projects/food.png",
     link: "https://github.com/jokerf6/Healthyfood",
     freelance: false,
+    graduation: false,
     internship: false,
   },
   {
@@ -190,5 +198,6 @@ export const projects = [
     link: "https://github.com/jokerf6/Special-wep",
     freelance: false,
     internship: false,
+    graduation: false,
   },
 ];

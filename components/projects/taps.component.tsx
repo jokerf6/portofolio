@@ -15,6 +15,7 @@ export default function Taps(props: { now: number; setNow: any }) {
         Pre
       </div>
       <div
+        onClick={() => setNow(1)}
         className={` ${
           now === 1 ? " bg-orange text-white" : "bg-main2 text-orange"
         } p-2 px-4 text-center rounded-full cursor-pointer hover:bg-orange hover:text-white hover:shadow-xl`}
@@ -22,6 +23,7 @@ export default function Taps(props: { now: number; setNow: any }) {
         1
       </div>
       <div
+        onClick={() => setNow(2)}
         className={` ${
           now === 2 ? " bg-orange text-white" : "bg-main2 text-orange"
         } p-2 px-4 text-center rounded-full cursor-pointer hover:bg-orange hover:text-white hover:shadow-xl `}
